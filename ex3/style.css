@@ -1,0 +1,25 @@
+#left,
+#right {
+    max-width: 200px;
+}
+
+#center {
+    max-width: 300px;
+}
+
+div {
+    height: 500px;
+    text-align: center;
+}
+img, button{
+    vertical-align: middle;
+}
+body{
+    font-size: xx-large;
+}
+button{
+    font-size: 40pt;
+    padding: 3%;
+    border-radius: 10px;
+    background-color: beige;
+}
