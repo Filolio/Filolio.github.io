@@ -1,0 +1,41 @@
+body {
+    font-family:Arial;
+    background: linear-gradient(to right, rgb(34, 34, 34), rgb(71, 71, 71));
+}
+
+
+/* меню */
+header {
+    padding: 0%;
+}
+
+.navigation a,
+.navigation {
+    padding: 1vw;
+    margin: 1vw;
+    font-size: larger;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation a {
+
+    text-align: center;
+    font-size:40pt;
+
+    color: rgba(255, 255, 255, 0.688);
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to top, rgba(97, 97, 97, 0.3), rgba(119, 119, 119, 0.3));
+}
+
+/* конец меню */
