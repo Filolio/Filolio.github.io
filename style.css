@@ -10,12 +10,15 @@ body {
 
 /* меню */
 
-.navigation a,
-.navigation {
-    padding: 1vw;
-    margin: 1vw;
+.navigation a{
     font-size: larger;
+    padding: 1% 2%;
+
 }
+.navigation {
+    margin: 0.5% 5%;
+}
+
 
 .navigation {
     display: flex;
@@ -32,11 +35,14 @@ body {
 
     color: rgba(255, 255, 255, 0.688);
     text-decoration: none;
+    transition: color 1s ease;
+
 }
 
 .navigation a:hover,
 .contacts a:hover {
     color: rgb(255, 255, 255);
+    transition: color 1s ease;
 }
 
 /* контакты */
@@ -46,7 +52,8 @@ footer {
     background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
 }
 
-#contacts_title {
+
+.basic_h2{
     color: rgba(255, 255, 255, 0.647);
     padding-top: 1%;
     text-align: center;
@@ -60,7 +67,7 @@ footer {
 }
 .contacts a,
 .contacts {
-    padding: 1% 1%;
+    padding: 0% 1% 1% 1%;
     /* margin: 1vw; */
 }
 .contacts a {
