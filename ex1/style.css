@@ -6,3 +6,8 @@ img{
 body{
     text-align: center;
 }
+@media (width< 1085px) {
+    body{
+       background-color: aquamarine;
+    }
+}

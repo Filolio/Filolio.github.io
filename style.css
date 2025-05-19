@@ -1,3 +1,6 @@
+html {
+    min-width: 500px;
+  }
 body {
     font-family:Arial;
     background: linear-gradient(to right, rgb(34, 34, 34), rgb(71, 71, 71));
@@ -37,5 +40,9 @@ header {
     font-weight: bold;
     background: linear-gradient(to top, rgba(97, 97, 97, 0.3), rgba(119, 119, 119, 0.3));
 }
-
+@media (width< 1085px) {
+   .navigation{
+   flex-direction: column;
+   }
+}
 /* конец меню */
