@@ -1,16 +1,14 @@
 html {
-    min-width: 300px;
-  }
+    min-width: 500px;
+}
+
 body {
-    font-family:Arial;
+    font-family: Arial;
     background: linear-gradient(to right, rgb(34, 34, 34), rgb(71, 71, 71));
 }
 
 
 /* меню */
-header {
-    padding: 0%;
-}
 
 .navigation a,
 .navigation {
@@ -26,23 +24,68 @@ header {
 
 }
 
-.navigation a {
+.navigation a,
+.contacts a {
 
     text-align: center;
-    font-size:40pt;
+    font-size: 40pt;
 
     color: rgba(255, 255, 255, 0.688);
     text-decoration: none;
 }
+
+.navigation a:hover,
+.contacts a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* контакты */
+footer {
+
+    text-align: center;
+    background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
+}
+
+#contacts_title {
+    color: rgba(255, 255, 255, 0.647);
+    padding-top: 1%;
+    text-align: center;
+    font-size: xx-large;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contacts a,
+.contacts {
+    padding: 1% 1%;
+    /* margin: 1vw; */
+}
+.contacts a {
+    font-size: large;
+}
+
+
+
 
 header {
     text-align: center;
     font-weight: bold;
     background: linear-gradient(to top, rgba(97, 97, 97, 0.3), rgba(119, 119, 119, 0.3));
 }
-@media (width< 1085px) {
-   .navigation{
-   flex-direction: column;
-   }
+
+@media (width< 1095px) {
+    .navigation, .contacts {
+        flex-direction: column;
+    }
+
+    .navigation a {
+        font-size: xx-large;
+    }
+
+
 }
+
 /* конец меню */
