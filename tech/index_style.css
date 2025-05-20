@@ -62,7 +62,7 @@ img {
         margin: auto;
         margin-bottom: 0%;
         position: static;
-        height: 1000vmin;
+        height: 100vmin;
         width: 70%;
 
     }
@@ -84,7 +84,7 @@ img {
 
     img {
 
-        max-width:147 ;
+        max-width:147;
         max-height: 97px;
         
         display: block;
