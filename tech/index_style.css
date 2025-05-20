@@ -55,7 +55,7 @@ img {
     .stage {
         margin: auto;
         position: absolute;
-        width: 70%;
+        width: 50%;
     }
 
     #galery {
@@ -63,18 +63,18 @@ img {
         margin-bottom: 0%;
         position: static;
         height: 60vmin;
-        width: 70%;
+        width: 50%;
 
     }
 
     #buttons {
         display: flex;
         justify-content: center;
-        padding: 1%;
+        padding: 0.5%;
     }
     .button {
-        padding: 2%;
-        margin: 1%, 1%;
+        padding: 1%;
+        margin: 0.5%, 0.5%;
     }
 
     h1 {
@@ -92,6 +92,6 @@ img {
     }
 
     .stage p {
-        padding: 1% 5%;
+        padding: 0.5% 2.5%;
     }
 }
