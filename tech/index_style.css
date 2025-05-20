@@ -1,27 +1,31 @@
+
 .stage{
     margin: auto;
     position:absolute;
     width: 70%;
+
     background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
 }
 
 #galery{
     margin: auto;
     margin-bottom: 0%;
-    /* position:fixed; */
-    height: 70vh;
+    position:static;
+    height: 60vmin;
     width: 70%;
     /* background-color: aqua; */
    
 }
 #buttons{
+    
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 1%;
+    /* align-items: center; */
 }
 .button{
     padding: 2%;
-    margin: 0%, 1%;
+    margin: 1%, 1%;
 }
 h1{
     text-align: center;
@@ -31,7 +35,9 @@ h1{
 img{
    
     /* object-fit: fill; */
-     width: 50%; 
+     /* width: 50%;  */
+     max-width:294;
+     max-height: 194px;
     display: block;
     margin-left: auto;
     margin-right: auto
