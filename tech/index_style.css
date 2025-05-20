@@ -1,15 +1,16 @@
 .stage{
     margin: auto;
     position:absolute;
-    width: 60%;
+    width: 70%;
     background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
 }
 
 #galery{
     margin: auto;
+    margin-bottom: 0%;
     /* position:fixed; */
-    height: 60vh;
-    width: 60%;
+    height: 70vh;
+    width: 70%;
     /* background-color: aqua; */
    
 }
@@ -20,7 +21,7 @@
 }
 .button{
     padding: 2%;
-    margin: 2%;
+    margin: 0%, 1%;
 }
 h1{
     text-align: center;
@@ -28,9 +29,9 @@ h1{
     color: rgba(255, 255, 255, 0.647);
 }
 img{
-    padding: 10%;
-    object-fit: fill;
-    /* width: 50%; */
+   
+    /* object-fit: fill; */
+     width: 50%; 
     display: block;
     margin-left: auto;
     margin-right: auto
