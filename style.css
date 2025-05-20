@@ -1,6 +1,3 @@
-html {
-    min-width: 600px;
-}
 
 body {
     font-family: Arial;
@@ -91,8 +88,27 @@ header {
     .navigation a {
         font-size: xx-large;
     }
+}
+@media (width<768){
 
+    .navigation a{
+    font-size: medium;
 
+}
+
+.navigation a,
+.contacts a {
+    font-size: 20pt;
+}
+
+.basic_h2{
+    font-size: large;
+}
+ /* margin: 1vw; */
+
+.contacts a {
+    font-size: medium;
+}
 }
 
 /* конец меню */
