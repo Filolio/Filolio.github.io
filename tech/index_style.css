@@ -56,12 +56,18 @@ img {
 }
 
 @media (width<768) {
+    #galery{
+        width: 85%;
+    }
+    #buttons{
+        width:85%;
+    }
     /* .stage {
         margin: auto;
         position: absolute;
         width: 80%;
     }
-
+    
     #galery {
         margin: auto;
         margin-bottom: 0%;
