@@ -1,0 +1,26 @@
+h1{
+    font-size: 40pt;
+    color: rgba(255, 255, 255, 0.647);
+}
+#silver_title{
+    padding: 5% 5%;
+    background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
+    
+    text-align: center;
+}
+article{
+    text-align: justify;
+    padding: 1% 5% 5%;
+    color: rgba(255, 255, 255, 0.647);
+    font-size: x-large;
+}
+
+
+@media (width< 800px) {
+    #silver_title h1{
+        font-size: 30pt;
+    }
+    article{
+        font-size: x-large;
+    }
+}

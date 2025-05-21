@@ -1,0 +1,30 @@
+h1{
+    font-size: 60pt;
+    color: rgba(255, 255, 255, 0.647);
+    vertical-align: middle;
+    
+}
+#silver_title{
+    grid-row: 2;
+    padding: 5% 5%;
+    background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
+    height: 100%;
+    text-align: center;
+}
+header{
+    grid-row: 1;
+    height: 100%;
+}
+footer{
+    grid-row: 3;
+    height: 100%;
+}
+#items{
+    position: absolute;
+
+    display: grid;
+    grid-template-rows: 1fr, 3fr, 2fr;
+   
+    height: 100%;
+    width: 100%;
+}

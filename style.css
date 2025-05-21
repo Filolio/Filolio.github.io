@@ -61,6 +61,7 @@ footer {
     padding: 3% 0% 2%;
     text-align: center;
     background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
+    width: 100%;
 }
 h1,h2{
     font-family: Bedas;
@@ -100,7 +101,7 @@ header {
     background: linear-gradient(to top, rgba(97, 97, 97, 0.3), rgba(119, 119, 119, 0.3));
 }
 
-@media (width< 1095px) {
+@media (width< 800px) {
 
     .navigation,
     .contacts {

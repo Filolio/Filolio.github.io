@@ -22,15 +22,51 @@ article{
     color: rgba(255, 255, 255, 0.647);
 }
 form{
-    width: 40%;
+    width: 60%;
     margin: auto;
+    font-size: large;
     
 }
 
 .required_star {
     color: rgb(255, 185, 185);
 }
+fieldset{
+    padding: 2% 2% 2% 10%;
+    text-align: left;
+}
+label, input{
+    margin-top: 2%;
+}
+#reset_btn, #submit_btn{
+    width: 40%;
+    height: 50px;
+    margin: 0% 1%;
+    
+    border: 0px;
+    font-family: Montserrat;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.244);
+}
+input[type=email], input[type=text], input[type=tel]{
+    border: 0cap;
+    height: 30px;
+    width:50%;
+    color: rgb(255, 255, 255);
+    /* height: 100%; */
+}
+input::placeholder {
+  color: rgba(208, 208, 208, 0.87);
+}
 
+#reset_btn{
+    color:rgba(255, 255, 255, 0.87); ;
+     background-color: rgba(39, 39, 39, 0.647);
+}
+#submit_btn{
+    background-color: rgba(255, 255, 255, 0.647);
+}
 
 
 @media (width< 1095px) {
