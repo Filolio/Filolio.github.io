@@ -1,32 +1,48 @@
 .stage {
     margin: auto;
     position: absolute;
-    width: 70%;
+    width: 100%;
+    height: 100%;
 
     background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
 }
 
 #galery {
     margin: auto;
-    margin-bottom: 0%;
-    position: static;
-    height: 60vmin;
+    /* margin-bottom: 0%; */
+    position: relative;
+    
+    height: 75vh;
     width: 70%;
+    /* height: 50%; */
     /* background-color: aqua; */
 
 }
 
 #buttons {
-
+    /* background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3)); */
+    position: relative;
+    /* top: 70vmin; */
+    margin: auto;
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
-    padding: 1%;
+    width: 70%;
+    /* padding: 1%; */
+    /* margin: 0.5%; */
+
     /* align-items: center; */
 }
 
 .button {
+    /* font-family: Montserrat; */
+     background: linear-gradient(to left, rgba(107, 107, 107, 0.3), rgba(255, 255, 255, 0.3));
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.647);
+    width: 50%;
     padding: 2%;
     margin: 1%, 1%;
+    border: 0px;
 }
 
 h1 {
@@ -34,20 +50,23 @@ h1 {
     font-size: 30pt;
     color: rgba(255, 255, 255, 0.647);
 }
-
+footer{
+    position:relative;
+    /* top: 70vmin; */
+}
 img {
 
     /* object-fit: fill; */
     /* width: 50%;  */
-    max-width: 294;
-    max-height: 194px;
+    width: 50%;
+    /* max-height: 500px; */
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 .stage p {
-    padding: 1% 5%;
+    padding: 2% 5%;
     color: rgba(255, 255, 255, 0.647);
 }
 
