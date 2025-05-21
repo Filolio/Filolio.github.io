@@ -21,6 +21,7 @@ body {
 .navigation a {
     font-size: larger;
     padding: 1% 2%;
+    width: 33%;
 
 }
 
@@ -31,7 +32,7 @@ body {
 
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-family: Bedas;
 

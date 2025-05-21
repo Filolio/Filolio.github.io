@@ -8,7 +8,7 @@ $(document).ready(function () {
     for (i = 1; i < cnt; i++) {
 
         $("#stage" + (i + 1))
-            .animate({ right: "+=20%", opacity: 0 }, 0).hide();
+            .animate({ left: "+=20%", opacity: 0 }, 0).hide();
 
     }
 
@@ -36,9 +36,9 @@ function NewPosition(nextOrPrev, cnt, arr) {
         if (nextIndex == cnt - 1) $("#next").animate({ opacity: 0 }, 500).hide(500);
         $("#prev").animate({ opacity: 1 }, 500).show(500);
         $("#stage" + (currentIndex + 1))
-            .animate({ left: "+=20%", opacity: 0 }, 1000).hide(0);
+            .animate({ left: "-=20%", opacity: 0 }, 1000).hide(0);
         $("#stage" + (nextIndex + 1))
-        .show().animate({ left: "+=20%", opacity: 1 }, 1000);
+        .show().animate({ left: "-=20%", opacity: 1 }, 1000);
 
              let tmp = arr[cnt - 1], prevArr=[];
              for(i=0;i<cnt;i++){
@@ -58,9 +58,9 @@ function NewPosition(nextOrPrev, cnt, arr) {
         $("#next").animate({ opacity: 1 }, 500).show(500);
 
         $("#stage" + (currentIndex + 1))
-            .animate({ left: "-=20%", opacity: 0 }, 1000).hide(0);
+            .animate({ left: "+=20%", opacity: 0 }, 1000).hide(0);
         $("#stage" + (prevIndex + 1))
-        .show().animate({ left: "-=20%", opacity: 1 }, 1000);
+        .show().animate({ left: "+=20%", opacity: 1 }, 1000);
 
              let tmp = arr[0], prevArr=[];
              for(i=0;i<cnt;i++){
