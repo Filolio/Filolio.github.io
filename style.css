@@ -113,23 +113,15 @@ header {
     }
 }
 
-@media (width<768) {
+@media (width<768px) {
 
-    .navigation a {
-        font-size: medium;
-
-    }
-
-    .navigation a,
-    .contacts a {
+    .navigation a, .contacts a {
         font-size: 20pt;
     }
 
     .basic_h2 {
         font-size: large;
     }
-
-    /* margin: 1vw; */
 
     .contacts a {
         font-size: medium;
