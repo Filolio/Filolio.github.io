@@ -10,10 +10,29 @@ h1{
 }
 article{
     text-align: justify;
-    padding: 1% 5%;
+    padding: 1% 5% 5%;
     color: rgba(255, 255, 255, 0.647);
-    font-size: xx-large;
+    font-size: x-large;
 }
+/* Форма */
+#form{
+    text-align: center;
+    padding: 5% 0%;
+    background: linear-gradient(to top, rgba(129, 129, 129, 0.3), rgba(112, 112, 112, 0.3));;
+    color: rgba(255, 255, 255, 0.647);
+}
+form{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.required_star {
+    color: rgb(255, 185, 185);
+}
+
+
+
 @media (width< 1095px) {
     #silver_title h1{
         font-size: 40pt;

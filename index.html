@@ -26,7 +26,88 @@
         <h2 class="basic_h2">Что такое чернение?</h2>
         Чернение — способ обработки, при котором часть поверхности приобретает матовый черный оттенок. Для рисунка применяется сложная технология изготовления сплава серебра, меди и серы, которой даже талантливых мастеров обучают долгими месяцами и годами. Это поистине невероятно кропотливая работа, ведь для получения итогового рисунка необходимо на основе-заготовке выполнить гравировку, которая будет заполняться окрашенным сплавом.
     </article>
-    <div>
+    <div id="form">
+
+        <h2 class="basic_h2">Записаться на мастер-класс</h2>
+    <p class="required_description">Поля, отмеченные <span class="required_star">*</span>, обязательны для заполнения
+    </p>
+    <form action="answer.html" method="post">
+        <label for="login">Логин<span class="required_star">*</span>:</label><br>
+        <input type="email" id="login" name="login" required placeholder="Введите ваш логин" autocomplete="email">
+        <br><br>
+
+
+        <label for="password">Пароль<span class="required_star">*</span>:</label><br>
+        <input type="password" id="password" name="password" required placeholder="Введите пароль">
+        <br><br>
+
+        <fieldset>
+            <legend>Тип проблемы:</legend>
+
+            <input type="radio" id="send_material" name="problem_type" value="send_material">
+            <label for="send_material">Отправка материалов</label><br>
+            <input type="radio" id="get_material" name="problem_type" value="get_material" checked>
+            <label for="get_material">Получение материалов</label><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Статус:</legend>
+            <input type="radio" id="student" name="status" value="student" checked>
+            <label for="student">Ученик</label><br>
+            
+            <input type="radio" id="teacher" name="status" value="teacher">
+            <label for="teacher">Преподаватель</label><br>
+
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>Вы хотите получить ответ:</legend>
+            <input type="checkbox" id="mail" name="mail">
+            <label for="mail">На почту</label><br>
+            <input type="checkbox" id="personal_account" name="personal_account" checked>
+            <label for="personal_account">В личном кабинете</label><br>
+            <input type="checkbox" id="sms" name="sms">
+            <label for="sms">По sms</label><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Где возникает проблема?</legend>
+            <input type="checkbox" id="app" name="app" checked>
+            <label for="app">В приложении</label><br>
+            <input type="checkbox" id="site" name="site">
+            <label for="site">На сайте</label><br>
+        </fieldset><br>
+
+        <label for="subject">Курс:</label><br>
+        <select id="subject" name="subject" size="3">
+            <option value="program">Программирование</option>
+            <option value="write_code">Написание кода</option>
+            <option value="create_prog">Создание компьютерных программ</option>
+            <option value="edit_prog">Mодификаця компьютерных программ</option>
+
+
+        </select><br><br>
+
+        <label for="description">Описание проблемы<span class="required_star">*</span>:</label><br>
+        <textarea id="description" name="description" rows="5" cols="50" required
+            placeholder="кратко опишите проблему"></textarea><br>
+
+        <label for="problem_date">Когда произошла проблема?</label><br>
+        <input type="date" id="problem_date" name="problem_date"><br><br>
+        <div>
+
+            <button type="reset">Очистить</button>
+            <input type="submit" value="Отправить">
+        </div>
+    </form>
+
+
+    <script>
+        let today = new Date().toISOString().slice(0, 10);
+        document.getElementById("problem_date").value = today;
+        document.getElementById("problem_date").max = today;
+      </script>
+
 
     </div>
     <footer>

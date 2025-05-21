@@ -1,5 +1,17 @@
+@font-face {
+	font-family: 'Bedas'; 
+	src: local('Bedas'),
+		url(fonts/Bebas.ttf); 
+}
+@font-face {
+	font-family: 'Montserrat'; 
+	src: local('Montserrat'),
+		url(fonts/Montserrat.ttf); 
+}
+
+
 body {
-    font-family: Arial;
+    font-family: Montserrat; 
     background: linear-gradient(to right, rgb(34, 34, 34), rgb(71, 71, 71));
 }
 
@@ -21,6 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Bedas;
 
 }
 
@@ -44,17 +57,20 @@ body {
 
 /* контакты */
 footer {
-
+    padding: 3% 0% 2%;
     text-align: center;
     background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
 }
-
+h1,h2{
+    font-family: Bedas;
+}
 
 .basic_h2 {
     color: rgba(255, 255, 255, 0.647);
     padding-top: 1%;
     text-align: center;
     font-size: xx-large;
+    
 }
 
 .contacts {
