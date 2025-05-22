@@ -16,11 +16,4 @@ article{
 }
 
 
-@media (width< 800px) {
-    #silver_title h1{
-        font-size: 30pt;
-    }
-    article{
-        font-size: x-large;
-    }
-}
+
