@@ -77,3 +77,8 @@ input::placeholder {
         font-size: x-large;
     }
 }
+@media (width<768px) {
+    form{
+        width: 90%;
+    }
+}
