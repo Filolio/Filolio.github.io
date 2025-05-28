@@ -14,6 +14,22 @@ article{
     color: rgba(255, 255, 255, 0.647);
     font-size: x-large;
 }
+.image{
+    background: linear-gradient(to right, rgb(53, 53, 53), rgb(87, 87, 87));
+    padding: 2%;
+    margin: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+img{
+    width: 30%;
+}
+@media (width<768px) {
+
+   img{
+    width: 60%;
+}
+}
 
 
 
