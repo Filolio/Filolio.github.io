@@ -42,6 +42,12 @@ h1 {
     font-size: 30pt;
     color: rgba(255, 255, 255, 0.647);
 }
+#pictures{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    padding: 2%;
+}
 
 footer {
     position: relative;
