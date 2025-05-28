@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Чернение изделий из серебра | Запись на мастер-класс</title>
-    <meta name="description" content="Изучите историю чернения серебра в Великом Устюге и запишитесь на мастер-класс. Сделайте свое изделие из серебра">
+    <meta name="description"
+        content="Изучите историю чернения серебра в Великом Устюге и запишитесь на мастер-класс. Сделайте свое изделие из серебра">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="index_style.css" type="text/css">
 
@@ -29,42 +30,48 @@
     <article>
         <h2 class="basic_h2">Что такое чернение?</h2>
         <p>Чернение — способ обработки, при котором часть поверхности приобретает матовый черный оттенок. Для рисунка
-        применяется сложная технология изготовления сплава серебра, меди и серы, которой даже талантливых мастеров
-        обучают долгими месяцами и годами. Это поистине невероятно кропотливая работа, ведь для получения итогового
-        рисунка необходимо на основе-заготовке выполнить гравировку, которая будет заполняться окрашенным сплавом.</p>
+            применяется сложная технология изготовления сплава серебра, меди и серы, которой даже талантливых мастеров
+            обучают долгими месяцами и годами. Это поистине невероятно кропотливая работа, ведь для получения итогового
+            рисунка необходимо на основе-заготовке выполнить гравировку, которая будет заполняться окрашенным сплавом.
+        </p>
     </article>
     <div id="pictures">
-            <h3 id="h3">Кружка из серебра с черневым узором ВИНОГРАД</h3>
-            <picture id="pic">
-                <source id="s"  srcset="media/im_f_full.png" media="(width>768px)">
-                <img id="img" src="media/im_f_half.png" alt="">             
-            </picture>
-            <br>
-            <button id="next_pic">---------------/</button>
+        <h2 class="basic_h2">Как выглядит чернение?</h2>
+        <h3 id="h3">Кружка из серебра с черневым узором ВИНОГРАД</h3>
+        <picture id="pic">
+            <source id="s" srcset="media/im_f_full.png" media="(width>768px)">
+            <img id="img" src="media/im_f_half.png" alt="Кружка из серебра с черневым узором ВИНОГРАД">
+        </picture>
+        <br>
+        <div id="buttons">
+            <button id="prev_pic" class="button">Назад</button>
+            <button id="next_pic" class="button">Далее</button>
+        </div>
+
     </div>
     <div id="form">
 
         <h2 class="basic_h2">Записаться на мастер-класс</h2>
         <form action="answer/answer.html" method="post">
-        <p class="required_description">Поля, отмеченные <span class="required_star">*</span>, обязательны для
-            заполнения
-        </p>
+            <p class="required_description">Поля, отмеченные <span class="required_star">*</span>, обязательны для
+                заполнения
+            </p>
             <fieldset>
                 <legend>Информация об участнике:</legend>
-                
 
-                    
-                        <label for="name">Ваше имя<span class="required_star">*</span>:</label><br>
-                        <input type="text" id="name" name="mane" required placeholder="Введите ваше имя" autocomplete="name">
-                        <br>
-                        <label for="number">Телефон<span class="required_star">*</span>:</label><br>
-                        <input type="tel" id="number" name="number" required placeholder="Введите номер телефона">
-                        <br>
-                        <label for="email">Почта<span class="required_star">*</span>:</label><br>
-                        <input type="email" id="email" name="email" required placeholder="Введите почту" autocomplete="email">
-                   
-                    
-                
+
+
+                <label for="name">Ваше имя<span class="required_star">*</span>:</label><br>
+                <input type="text" id="name" name="mane" required placeholder="Введите ваше имя" autocomplete="name">
+                <br>
+                <label for="number">Телефон<span class="required_star">*</span>:</label><br>
+                <input type="tel" id="number" name="number" required placeholder="Введите номер телефона">
+                <br>
+                <label for="email">Почта<span class="required_star">*</span>:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Введите почту" autocomplete="email">
+
+
+
 
             </fieldset>
             <br><br>

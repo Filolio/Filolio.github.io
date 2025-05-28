@@ -15,15 +15,43 @@ article{
     font-size: x-large;
 }
 #pictures{
-    background-color: aquamarine;
+    background: linear-gradient(to top, rgba(173, 173, 173, 0.3), rgba(186, 186, 186, 0.3));
     margin: auto;
     text-align: center;
-    height: 50vh;
+    padding: 5%;
     padding: 2%;
+    
+}
+#h3{
+    color: rgba(255, 255, 255, 0.647);
+    padding-top: 1%;
+    text-align: center;
+    font-size: x-large;
 }
 img{
-    background-color: bisque;
+   
     width: 40%;
+}
+#buttons {
+    
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.button {
+    font-family: Bedas;
+    background: linear-gradient(to left, rgba(107, 107, 107, 0.3), rgba(255, 255, 255, 0.3));
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.647);
+    width: 50%;
+    padding: 2%;
+    border: 0px;
 }
 
 /* Форма */
@@ -98,4 +126,7 @@ input::placeholder {
     img{
         width: 90%;
     }
+     #buttons {
+            width: 80%;
+        }
 }

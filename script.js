@@ -7,18 +7,22 @@ class Card {
         this.data_size = data_size;
         this.i = 0;
     }
-    nextCard() {
-        //if($('#img').css("width")=="60%") alert("asd"); else alert($('#img').css("width"));
-
-        this.i++;
-        if (this.i > this.data_size) this.i = 0;
-
+    newCard() {
         $("#h3").html(data[this.i]['h3']);
         $("#s").attr("srcset", 'media/im_' + data[this.i]['img'] + "_full.png");
         $("#img").attr("src", "media/im_" + data[this.i]['img'] + "_half.png");
+        $("#img").attr("alt", data[this.i]['h3']);
         $("#img").css("width", data[this.i][w_type]);
-
-
+    }
+    nextCard() {
+        this.i++;
+        if (this.i > this.data_size) { this.i = 0; }
+        this.newCard();
+    }
+    prevCard() {
+        this.i--;
+        if (this.i < 0) { this.i = this.data_size; }
+        this.newCard();
     }
     updateWidth() {
         //alert(w_type);
@@ -34,9 +38,9 @@ const data = [
         'phone_width': "90%"
     },
     {
-        'h3': 'ФЛЯЖКА "ГЛУХАРЬ"',
+        'h3': 'Фляжка "ГЛУХАРЬ"',
         'img': 's',
-        'width': "20%",
+        'width': "15%",
         'phone_width': "50%"
     },
     {
@@ -75,5 +79,9 @@ $(document).ready(function () {
     $("#next_pic").click(() => {
         //alert("asd");
         card.nextCard();
+    });
+    $("#prev_pic").click(() => {
+        //alert("asd");
+        card.prevCard();
     });
 });
