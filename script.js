@@ -8,11 +8,14 @@ class Card {
         this.i = 0;
     }
     newCard() {
+        $("#content").animate({ opacity: 0 }, 0);
         $("#img").css("width", data[this.i][w_type]);
         $("#h3").html(data[this.i]['h3']);
         $("#s").attr("srcset", 'media/im_' + data[this.i]['img'] + "_full.png");
         $("#img").attr("src", "media/im_" + data[this.i]['img'] + "_half.png");
         $("#img").attr("alt", data[this.i]['h3']);
+        $("#img").attr("title", data[this.i]['h3']);
+        $("#content").animate({ opacity: 1 }, 1000);
     }
     nextCard() {
         this.i++;
